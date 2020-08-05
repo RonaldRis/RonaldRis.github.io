@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cócteles</title>
+    <link rel="shortcut icon" href="Image/LOGO.ico"> 
+
+    <link rel="stylesheet" href="CSS/bootstrap-theme.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/ihover.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body  >
+
+
+    <header>
+      <div class="navbar-inverse side-collapse in">
+          <nav role="navigation" class="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="INDEX.html">Inicio</a></li>
+                <li><a href="Licores.html">Licores</a></li>
+                <li><a href="Cocteles.html">Cócteles</a></li>
+                <li><a href="Frozens.html">Frozens</a></li>
+                <li><a href="Refrescos.html">Refrescos</a></li>
+                <li><a href="Postres.html">Postres</a></li>
+                <li  class="navbar-toggle pull-left" style="background-color:#99c2ff;"><i style="font-family:fantasy;"><a href="Ubicacion.html">Lov En Piz</a></i></li>
+                        
+                <li><IMG SRC="Image/LOGO.png" height="20%" width="20%" class="align:right;"></li>
+             </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="ingles/INDEX.html">Inglés</a>
+              <a href="Ubicacion.html">contáctanos</a>
+            </li>
+            </ul>
+          </nav>
+        </div>    
+    </header>
+      
+
+
+<section>    <!--CARRUSEL-->
+
+<div col-sm-12>
+ <ul id="carousel">
+  <li><img width="1350" height="400" alt="" src="Image/pICS/2017-11-18 04.18.22 2.png" /></li>
+  <li><img width="1350" height="400" alt="" src="Image/pICS/zapato.png" /></li>
+  <li><img width="1350" height="400" alt="" src="Image/pICS/lala.jpg" /></li>
+<li><img width="1350" height="400" alt="" src="Image/pICS/jose.jpg" /></li>
+  <li><img width="1350" height="400" alt="" src="Image/pICS/botella.jpg" /></li>
+
+
+</ul>
+ </div>
+
+<!-- /*carusel*/ -->
+ <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://www.catchmyfame.com/jquery/infinitecarousel3/jquery.infinitecarousel3.min.js"></script>
+  <script type="text/javascript" src="http://www.catchmyfame.com/jquery/infinitecarousel3/easing.js"></script>
+  <script>
+     var a = jQuery.noConflict();
+        a(document).ready(function() {
+        a('#carousel').infiniteCarousel({
+           transitionSpeed:12000,     /*Tiempo de avance de las imagenes*/
+           displayTime: 2000,   /* El tiempo en milisegundos para hacer pausa*/
+           thumbnailType: 'false',
+           customClass: 'myCarousel',
+           easeLeft: 'linear',
+           easeRight:'linear',
+           inView: 1,    /*Imagenes mostradas*/
+           advance: true,
+           autoPilot: true,
+           displayProgressRing: true,    /*muestra grafica del tiempo que pausa la imagen*/
+});
+ });
+</script>
+   </section>
+
+
+
+<!--  IMAGENES DE MUESTRA DE NUESTROS PRODUCTOS-->
+
+<!--  Voy a centrar todo-->
+<CENTER>
+  <br>
+  <br>
+<h2><i>Algunos de nuestros productos</i></h2>
+<div class="bs-example">  <!--llama a la clase que genera los circulos>
+ 
+<!--    FILA  #1    -->
+<div class="row">
+  <br>
+  <br>
+   <br>
+    
+
+  
+  <!-- Esfera 1 AZUL -->
+  
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAZUL effect10 top_to_bottom"><a href="Cocteles.html">
+        <div class="img"><img src="Image/pICS/2017-11-17 09.14.27 2.jpg" ></div>
+        <div class="info">
+          <h3> COCTELES</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+  
+
+    <!-- Esfera 2 VINO -->
+     
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAMARILLO effect10 top_to_bottom"><a href="Frozens.html">
+        <div class="img"><img src="Image/FROZEN/4181a5ea4d170eeb1a39620d5fae9978--summer-bucket-lists-frozen-drinks.jpg" ></div>
+        <div class="info">
+          <h3>Frozen</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+    
+
+
+    <!-- Esfera 3 AZUL -->
+     
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAMARILLO effect10 top_to_bottom"><a href="Licores.html">
+        <div class="img"><img src="Image/pICS/2017-11-17 09.14.26 1.jpg" ></div>
+        <div class="info">
+          <h3>LICORES </h3>
+          <p></p>
+        </div></a></div>
+  </div>
+  
+  
+
+    <!-- Esfera 4 VINO -->
+    
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredVINO effect10 top_to_bottom"><a href="Postres.html">
+        <div class="img"><img src="Image/POSTRES/c9af2e295e366b3fc9504ba401c516b7--mojito-margaritas.JPG" ></div>
+        <div class="info">
+          <h3>POSTRES</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+ 
+  
+  
+</div>
+<!-- TERMINA LA FILA #1-->
+ 
+
+
+
+<!--    FILA  #2    -->
+<div class="row">
+
+  
+  
+   
+
+    <!-- Esfera 1 VINO -->
+     
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAMARILLO effect10 top_to_bottom"><a href="Refrescos.html">
+        <div class="img"><img src="Image/REFRESCOS/Verde-min.JPG" ></div>
+        <div class="info">
+          <h3>REFRESCOS</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+ 
+  
+
+    <!-- Esfera 2 AZUL -->
+  
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAZUL effect10 top_to_bottom"><a href="Cocteles.html">
+        <div class="img"><img src="Image/pICS/2017-11-17 09.14.29 1.JPG" ></div>
+        <div class="info">
+          <h3>CÓCTELES</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+  
+  
+
+    <!-- Esfera 3 VINO -->
+    
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredVINO effect10 top_to_bottom"><a href="Frozens.html">
+        <div class="img"><img src="Image/FROZEN/c3a563836f3ac1a849d78f656856a501.JPG" ></div>
+        <div class="info">
+          <h3>FROZEN   </h3>
+          <p></p>
+        </div></a></div>
+  </div>
+ 
+  
+
+  <!-- Esfera 4 AZUL -->
+    
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAMARILLO effect10 top_to_bottom"><a href="Licores.html">
+        <div class="img"><img src="Image/LICORES/tragos-con-vodka-6.JPG" ></div>
+        <div class="info">
+          <h3>LICORES</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+  
+  
+
+</div>
+<!-- TERMINA LA FILA #2  -->
+ 
+
+
+
+
+
+<!--    FILA  #3    -->
+<div class="row">
+
+  
+  <!-- Esfera 1 AZUL -->
+ 
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAZUL effect10 top_to_bottom"><a href="Postres.html">
+        <div class="img"><img src="Image/POSTRES/comoprepararunchipfrappuccinoportada.JPG" ></div>
+        <div class="info">
+          <h3>POSTRES</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+ 
+  
+   
+
+    <!-- Esfera 2 VINO -->
+     
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAMARILLO effect10 top_to_bottom"><a href="Refrescos.html">
+        <div class="img"><img src="Image/REFRESCOS/limonada-azul-55731982.JPG" ></div>
+        <div class="info">
+          <h3>REFRESCOS</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+   
+  
+
+    <!-- Esfera 3 AZUL -->
+      
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredAMARILLO effect10 top_to_bottom"><a href="Cocteles.html">
+        <div class="img"><img src="Image/COCTELES/coctel-fuego-de-agave (1).JPG" ></div>
+        <div class="info">
+          <h3>CÓCTELES</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+  
+  
+
+    <!-- Esfera 4 VINO -->
+    
+  <div class="col-sm-12 col-md-12 col-lg-3" >
+    <div class="ih-item circle coloredVINO effect10 top_to_bottom"><a href="Licores.html">
+        <div class="img"><img src="Image/pICS/2017-11-17 09.14.26 2.jpg" ></div>
+        <div class="info">
+          <h3>Licor</h3>
+          <p></p>
+        </div></a></div>
+  </div>
+  
+  
+  
+</div>
+<!-- TERMINA LA FILA #3  -->
+ 
+ 
+
+</CENTER>
+
+
+
+
+
+
+   <!-- Pie de pagina ESTO DEBE IR EN TODAS LAS PAGINAS QUE HAGAMOS!!!!! -->
+
+     <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+     </div> 
+
+
+     <div class="w3-col s4">
+        <br><br><br><br><br><br>
+         <center>
+        <h4>Contáctanos</h4>
+        <p>¿Preguntas, comentarios? ¡Haz cuántos quieras!</p>
+        <i>Siguenos en nuestras redes sociales:</i>
+        <a href="https://www.instagram.com/lovenpiz/?hl=es-la"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a>
+        </center>
+      </div>
+
+      <div class="w3-col s4">
+          <br><br><br><br>
+        <h4>Nosotros</h4>
+        <p><a href="Nosotros.html#UNO">Quiénes somos</a></p>
+        <p><a href="Nosotros.html#DOS">Misión</a></p>
+        <p><a href="Nosotros.html#TRES">Visión</a></p>
+        <p><a href="Nosotros.html#CUATRO">Historia</a></p>
+        <p><a href="INDEX.html#inicio">Página principal</a></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+          <br><br><br><br>
+        <h4>Bar Lov En Piz</h4>
+        <p><i class="fa fa-fw fa-map-marker"><a href="Ubicacion.html"></i>Ubicacion</a></p> <!--Aca me gustaria agregar un link que nos mande a una pagina donde se encuentre un script de google maps que muestre nuestras instalaciones el header, nav y footer xD-->
+        <p><i class="fa fa-fw fa-phone"></i> +503 8487486467461</p>
+        <p><i class="fa fa-fw fa-envelope"></i> lovenpiz@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
